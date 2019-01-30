@@ -1,0 +1,40 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#indice{
+    width:200px;
+    height:200px;
+    border:1px solid black;
+    padding:20px;
+}
+
+#indice a{
+    width: 100%;
+    float: left;
+    clear: both;
+    margin: 3px 0;
+    padding: 2px 0;
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+}
+
+#indiceInferior{
+    border:1px solid black;
+    padding:20px;
+}
+
+#indiceInferior ul{
+    list-style: none;
+}
+
+#indiceInferior li{
+    display: inline;
+}
+
+#indiceInferior a{
+    margin: 0 10px;
+    padding: 2px 0;
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+}

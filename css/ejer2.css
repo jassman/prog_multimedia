@@ -1,0 +1,58 @@
+
+.menu{
+    width: 100px;
+    height: 150px;
+    position: absolute;
+    left: 10px;
+    top: 40px;
+}
+
+.cuerpo{
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    border: 1px solid skyblue;
+    left: 120px;
+    top: 40px;
+}
+
+h1{
+    font-family: Verdana, sans-serif;
+    font-size: 18px;
+    color: blue;
+    font-style: italic;
+    border-bottom: 1px solid blue;
+}
+
+.miparrafo{
+    font-family:Verdana, serif;
+    font-size: 14px;
+    color:darkgrey;
+}
+
+ul{
+    padding: 0;
+}
+
+li{
+    background-color: aqua;
+    border-top: 1px solid blue;
+    border-bottom: 1px solid blue;
+    margin: 10px auto;
+}
+
+a{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0 10px;
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+    background-color: blue;
+    text-decoration: none;
+}

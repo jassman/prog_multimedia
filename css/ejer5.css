@@ -1,0 +1,17 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#cabecera{
+    border-top: 1px solid blue;
+    border-bottom: 1px solid blue;
+}
+
+#formulario{
+    border: 1px solid red;
+    margin-top: 5px;
+}
+
+#mail{
+    background-color: red;
+}

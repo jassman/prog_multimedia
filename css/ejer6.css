@@ -1,0 +1,47 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    display: inline-block;
+}
+/* Primera parte */
+.container>div, .container-2>div{
+    width: 300px;
+    border: 5px solid black;
+    display: inline-block;
+}
+
+.one{
+    background-color: yellow;
+}
+.two{
+    background-color: red;
+}
+.three{
+    background-color: blue;
+}
+
+p{
+    margin: 20px;
+}
+
+/* Segunda parte */
+
+.container-2{
+    margin-top: 30px;
+    position: relative;
+}
+
+.container-2 .one{
+    position: absolute;
+}
+
+.container-2 .two{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+.container-2 .three{
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}
